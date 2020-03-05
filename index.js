@@ -7,9 +7,9 @@ const fs = require('fs');
 
 const createData = (info) => {
   const newObj = {    
-    "name": "my-app",
-    "version": "0.0.1",
-    "description": "My Angular App",
+    "name": info.name,
+    "version": info.version,
+    "description": "Angular Application (with PNPM)",
     "author": "pj1301",
     "scripts": {
       "ng": "ng",
